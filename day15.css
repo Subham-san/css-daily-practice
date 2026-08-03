@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  color: white;
+}
+h1::first-letter{
+  color: red;
+  font-size: 70px;
+}
+p::first-line{
+  background-color: aqua;
+  color: black
+}
+p::selection{
+  color: blue;
+  background-color: red;
+}
+#fruits li::after{
+  content: "✔";
+}
+#apple::before{
+  content: "🍎";
+}
+#orange::before{
+  content: "🍊";
+}
+#banana::before{
+  content: "🍌";
+}

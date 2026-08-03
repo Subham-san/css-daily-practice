@@ -1,0 +1,23 @@
+body{
+  background-color:black;
+}
+#p1{
+  color: lightcoral;
+  font-size: 25px;
+  
+}
+#p2{
+  color: lightcyan;
+  font-size: 25px;
+  border-radius: 20px;
+}
+#p3{
+  color: lightblue;
+  font-size: 25px;
+  border-radius: 20px;
+}
+#p4{
+  color: lightgreen;
+  font-size: 25px;
+  border-radius: 20px;
+}

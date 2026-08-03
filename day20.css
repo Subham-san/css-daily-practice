@@ -1,0 +1,11 @@
+.gallery{
+  display: inline-block;
+  border: 1px solid;
+  margin: 5px;
+}
+.gallery .description{ 
+   text-align: center;
+}
+.gallery:hover{
+  background-color: rgb(78, 75, 75);
+}

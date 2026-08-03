@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+}
+h1{
+  color: whitesmoke;
+  font-size: 75px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 4px 4px 6px blue;
+  text-align: center;
+
+  border: solid;
+  border-radius: 25px;
+  border-style: dotted;
+  border-color: lightblue;
+}
+div{
+  border: 2px solid;
+  height: 100px;
+  overflow:auto ;
+}
+p{
+  color: red;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}

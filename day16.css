@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+  color: white;
+}
+div{
+  border: 2px solid white;
+  border-radius: 8px; 
+}
+.pagination{
+  text-align: center;
+}
+.pagination a{
+  color: lightgreen;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+}
+.pagination a.active{
+  background-color: lightblue;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+  background-color: lightcoral;
+  border-radius: 5px;
+}

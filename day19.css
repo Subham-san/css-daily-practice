@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+header{
+  text-align: center;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  background-color: gray;
+  padding: 25px;
+}
+.navbar{
+  background-color: black;
+  height: 50px;
+}
+aside{
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+section{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+article{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+footer{
+  text-align: center;
+  display: block;
+  background-color: gray;
+  clear: both;
+  padding: 15px;
+}
+@media  screen and (max-width: 600px) {
+  aside, section, article{
+    width: 100%;
+  }
+}

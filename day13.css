@@ -1,0 +1,15 @@
+#containers{
+  border: 2px solid;
+}
+#containers+p{
+  background-color: rgb(13, 187, 245);
+}
+#containers p{
+  background-color: rgb(17, 240, 43);
+}
+#containers~p{
+  background-color: rgb(229, 9, 24);
+}
+#containers > p{
+  background-color: rgb(78, 194, 233);
+}
