@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  color: blue;
+  font-size: 30px;
+}
+.icons{
+  text-align: center;
+  margin-right: 30px;
+}
+.fa-house{
+  color: black;
+}
+.fa-house:hover{
+    color: rgb(241,162,162);
+}
+.fa-circle-user{
+  color: black;
+}
+.fa-circle-user:hover{
+    color: rgb(241,162,162);
+}
+.fa-github{
+  color: black;
+}
+.fa-github:hover{
+    color: rgb(241,162,162);
+}
+.fa-youtube{
+  color: red;
+}
+.fa-youtube:hover{
+    color: rgb(241,162,162);
+}
+.fa-thumbs-up{
+  color: black;
+}
+.fa-thumbs-up:hover{
+    color: rgb(97,95,95);
+}
