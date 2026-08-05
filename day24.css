@@ -1,0 +1,72 @@
+body{
+  margin: 50px;
+  padding: 15px;
+}
+#box1{
+  height: auto;
+  width: 220px;
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 160px;
+  color: black;
+  background-color: red;
+  text-align: center;
+  animation-name: slideleft;
+  animation-duration: 1s;
+}
+@keyframes slideleft{
+  from{
+    transform: translatex(300%);
+  }
+}
+#box2{
+  height: auto;
+  width: 580px;
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 90px;
+  color: black;
+  background-color: rgb(181, 59, 238);
+  text-align: center;
+  animation-name: slideup;
+  animation-duration: 1.5s;
+}
+@keyframes slideup{
+  from{
+    transform: translatey(300%);
+  }
+}
+#box3{
+  height: auto;
+  width: 800px;
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 90px;
+  color: black;
+  background-color: rgb(241, 63, 185);
+  text-align: center;
+  animation-name: slideup;
+  animation-duration: 2s;
+}
+@keyframes slideup{
+  from{
+    transform: translatey(200%);
+  }
+}
+#box4{
+  height: auto;
+  width: 800px;
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 90px;
+  color: black;
+  background-color: rgb(241, 63, 185);
+  text-align: center;
+  animation-name: slideup;
+  animation-duration: 2.2s;
+}
+@keyframes slideup{
+  from{
+  transform: translatey(200%); 
+  }
+}
