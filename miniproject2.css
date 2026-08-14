@@ -1,0 +1,22 @@
+body{
+  background-color: #f4f4f4
+}
+.color-box{
+  height: 50px;
+  width: 100px;
+}
+.color1{
+  background-color:#E63946;
+}
+.color2{
+  background-color: rgb(255, 147, 155);
+}
+.color3{
+  background-color: cornflowerblue;
+}
+.color4{
+  background-color: hsl(210, 85%, 55%);
+}
+.color5{
+  background-color: black;
+}
